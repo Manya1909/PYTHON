@@ -1,0 +1,12 @@
+name=input("Enter Employee Name: ")
+id=int(input("Enter Employee Id: "))
+salary=float(input("Enter Employee Salary: "))
+dep=str(input("Enter Employee Department: "))
+status=bool("Is The Employee Active? ")
+
+print("EMPLOYEE DETAILS")
+print("Name: ",name)
+print("ID: ",id)
+print("Salary: ",salary)
+print("Department: ",dep)
+print("Active: ",status)
